@@ -1,0 +1,6 @@
+dataset,split,raw_count,after_filter_count,after_dedup_count,removed_by_filter,removed_by_dedup
+gsm8k,train,7473,7473,7473,0,0
+gsm8k,test,1319,1319,1319,0,0
+svamp,train,700,700,700,0,0
+svamp,test,300,300,300,0,0
+aqua_rat,train,97721,97640,80107,81,17533

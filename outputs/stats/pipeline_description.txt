@@ -1,0 +1,10 @@
+
+Dataset preprocessing pipeline:
+1. Load raw datasets from Hugging Face.
+2. Inspect original fields for GSM8K, SVAMP, and AQuA-RAT.
+3. Normalize text fields and extract final answers.
+4. Remove empty, duplicated, and overly short/long samples.
+5. Convert all datasets into a unified JSONL schema.
+6. Build train/validation/test splits.
+7. Export processed files and debug subsets.
+8. Compute dataset statistics and save evaluation-ready resources.

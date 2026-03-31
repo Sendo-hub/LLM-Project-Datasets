@@ -1,0 +1,10 @@
+Dataset,Split,Size,Avg Question Words,Avg Answer Words,Answer Type
+gsm8k,train,6726,45.07,1.0,numeric
+gsm8k,validation,747,45.26,1.0,numeric
+gsm8k,test,300,45.75,1.0,numeric
+svamp,train,630,31.6,1.0,numeric
+svamp,validation,70,32.46,1.0,numeric
+svamp,test,300,31.91,1.0,numeric
+aqua_rat,train,71827,39.57,1.97,numeric
+aqua_rat,validation,7980,39.32,1.97,numeric
+aqua_rat,test,300,36.72,1.97,numeric
