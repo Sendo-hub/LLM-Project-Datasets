@@ -31,14 +31,6 @@ Each sample has fields:
 - merged_validation.jsonl
 - merged_test.jsonl
 
-## Example usage
-
-from src.data_utils import load_jsonl, build_prompt, evaluate_predictions
-
-samples = load_jsonl("/content/drive/MyDrive/llm_group_project/data/processed/gsm8k_test.jsonl")
-prompt = build_prompt(samples[0], prompt_type="base")
-print(prompt)
-
 ## Notes
 - Numeric datasets: GSM8K, SVAMP
 - Multiple-choice dataset: AQuA-RAT
