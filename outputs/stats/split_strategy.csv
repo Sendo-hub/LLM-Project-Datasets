@@ -1,4 +1,4 @@
 dataset,strategy,train_size,validation_size,test_size
 gsm8k,official_train + sampled_official_test + val_from_train,6726,747,300
 svamp,official_train + sampled_official_test + val_from_train,630,70,300
-aqua_rat,train_only -> split_train_val_test,71827,7980,300
+aqua_rat,official_train + official_validation + official_test(no_expansion),97363,254,254
